@@ -1,14 +1,34 @@
 # Compiler from scratch
-gl24, 01/01/2023.
+## GL24 Project - ARM Assembler Extension
 
+**Date:** 01/01/2023  
+**Author:** GL24 Team
 
-En ce qui concerne l'extension, vous trouverez le script run_arm pour executer les assembleurs de l'ARM.
-Pour cela il faut avoir une machine linux et utiliser l'emulateur qemu.
-Avant de lancer l'execution du fichier:
-    sudo apt install gcc-arm-linux-gnueabi
-    sudo apt install qemu-user
-Execution :
-    ./run_arm fichier.ass
+## Overview
 
-Pour ne pas causer de problème avec le compilateur ima, nous n'avons pas fait le merge avec notre avancement globale sur l'extension.
-Pour l'instant le print ca marche que pour les chaine de caractères.
+This project includes an extension for running ARM assembler files using a custom script named `run_arm`. The script is designed to execute ARM assembly code on a Linux machine using the QEMU emulator. This extension is currently separate from the main project to avoid interference with the IMA compiler.
+
+## Prerequisites
+
+To use the `run_arm` script, you need the following:
+
+- A Linux machine
+- QEMU emulator
+- ARM cross-compiler
+
+### Installation
+
+Before running the ARM assembler files, you need to install the required packages. Run the following commands in your terminal:
+
+```bash
+sudo apt install gcc-arm-linux-gnueabi
+sudo apt install qemu-user
+```
+### Usage
+Once the necessary packages are installed, you can execute an ARM assembler file using the run_arm script. Use the following command:
+
+```bash
+./run_arm fichier.ass
+```
+Replace fichier.ass with the name of your ARM assembler file.
+
