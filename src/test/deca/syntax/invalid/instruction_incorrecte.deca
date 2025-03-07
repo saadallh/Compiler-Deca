@@ -1,0 +1,11 @@
+// Description:
+//    instruction incorrecte-manque ;
+//
+// Resultats:
+//    Une erreur Syntaxique 
+//
+// Historique:
+//    cree le 05/01/2023
+{
+    println("Hello World!")
+}

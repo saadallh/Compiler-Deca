@@ -1,0 +1,12 @@
+// Description:
+//    superClass not found
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+class A extends B {
+}
+

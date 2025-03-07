@@ -1,0 +1,21 @@
+// Description:
+//    not
+//
+// Resultats:
+//    ok
+//
+// Historique:
+//    cree le 01/01/2023
+
+{
+   boolean c = true;
+   boolean f = false;
+   boolean d = !c;
+   boolean e = !!c;
+   if ((c == true) && (d == false) && (e == true)){
+      print("ok");
+   }
+   else{print("ça marche pas");}
+}
+
+

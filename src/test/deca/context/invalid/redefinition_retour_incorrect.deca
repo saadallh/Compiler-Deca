@@ -1,0 +1,18 @@
+// Description:
+//    redefinition avec un type de retour pas un sous type de celui dans super
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+class A {
+	int x;
+	int getX(){
+		return x;
+	}
+}
+class B extends A {
+	void getX(){}
+}

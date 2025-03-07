@@ -1,0 +1,16 @@
+// Description:
+//    différents cas de print valides
+//
+// Resultats:
+//    ok
+//    1.00000e+00
+//    HiGL24
+//
+// Historique:
+//    cree le 08/01/2023
+
+{
+    println("ok");
+    println(1.0);
+    print("HiGL24");
+}

@@ -1,0 +1,11 @@
+// Description:
+//    empty main
+//
+// Resultats:
+//    Helloworld!
+//
+// Historique:
+//    cree le 01/01/2023
+
+#include "hello.decah"
+#include "world.decah"

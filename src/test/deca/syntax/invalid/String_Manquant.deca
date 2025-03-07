@@ -1,0 +1,12 @@
+// Description:
+//    test d'un string manquant
+//
+// Resultats:
+//    Une erreur de compilation
+//
+// Historique:
+//    cree le 04/01/2023
+
+{
+    println("Hello world!\n);          
+}

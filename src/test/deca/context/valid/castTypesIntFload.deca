@@ -1,0 +1,16 @@
+// Description:
+//    cast int and float
+//
+// Resultats:
+//    aucune erreur
+//
+// Historique:
+//    cree le 08/01/2023
+
+{
+
+	int a = 2;
+	float d = (float) (a);
+	a = (int) (d);
+
+}

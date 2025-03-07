@@ -1,0 +1,20 @@
+// Description:
+//    cast Invalid
+//
+// Resultats:
+//    erreur Contextuelle
+//
+// Historique:
+//    cree le 08/01/2023
+
+class A {
+}
+
+class B {
+}
+
+{
+	A a = new A();
+	B b = (B) (a);
+
+}

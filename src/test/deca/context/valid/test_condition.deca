@@ -1,0 +1,13 @@
+// Description:
+//    condition valide
+//
+// Resultats:
+//    aucune erreur
+//
+// Historique:
+//    cree le 08/01/2023
+
+{
+    boolean p; int i=0;
+    p=(i==0);
+}

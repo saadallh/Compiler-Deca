@@ -1,0 +1,12 @@
+// Description:
+//    Mauvaise déclaration de variable
+//
+// Resultats:
+//    Erreur Syntaxique: ident type doit etre le meme
+//
+// Historique:
+//    cree le 04/01/2023
+
+{
+int x, int y;
+}

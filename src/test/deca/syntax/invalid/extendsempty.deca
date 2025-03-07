@@ -1,0 +1,12 @@
+// Description:
+//    extends without class
+//
+// Resultats:
+//    Assignment Error
+//
+// Historique:
+//    cree le 08/01/2023
+
+class a extends {
+
+}

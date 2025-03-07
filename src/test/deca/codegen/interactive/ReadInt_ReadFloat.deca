@@ -1,0 +1,16 @@
+// Description:
+//    ecriture de chaines
+//
+// Resultats:
+//    bonnelecture
+//
+// Historique:
+//    cree le 01/01/2023
+
+{
+   int b = readInt();
+   float c = readFloat();
+   print("bonnelecture");
+}
+
+

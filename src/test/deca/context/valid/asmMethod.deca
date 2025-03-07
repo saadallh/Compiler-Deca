@@ -1,0 +1,16 @@
+// Description:
+//    asm method
+//
+// Resultats:
+//    aucune erreur
+//
+// Historique:
+//    cree le 08/01/2023
+
+class a {
+	int a;
+	void set() asm ( "ffff" );
+	void set1() asm ( "lllllllllllllll
+	llllllllllllllllll");
+}
+

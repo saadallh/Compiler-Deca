@@ -1,0 +1,18 @@
+// Description:
+//    operations binaires valides
+//
+// Resultats:
+//    Uncompatible type for unary operation
+//
+// Historique:
+//    cree le 08/01/2023
+
+{
+    int i= 2; int r; float f=1.0; boolean b =true;
+
+    r=-b;
+
+    r=!i;
+    r=!f;
+    r=!b;
+}

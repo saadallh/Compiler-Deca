@@ -1,0 +1,25 @@
+// Description:
+//    equality
+//
+// Resultats:
+//    3
+//    ok
+//
+// Historique:
+//    cree le 01/01/2023
+
+{
+    int c = 3;
+    int a = 3;
+    if ( a <= c ){
+      println(a);
+      if ( a >= c ){
+        println("ok");
+      }
+    }
+    else{
+      print(c , " =/= " , a );
+    }
+}
+
+

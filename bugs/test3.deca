@@ -1,0 +1,7 @@
+// programme incorrect a rejeter avec un message precis
+
+class A {
+   void a() { }  
+   void a() { }  
+}
+

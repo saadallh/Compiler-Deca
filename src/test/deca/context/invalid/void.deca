@@ -1,0 +1,12 @@
+// Description:
+//    Teste une declaration de variable de type void ;
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+{
+    void x;
+}

@@ -1,0 +1,17 @@
+// Description:
+//    commentaire valide
+//
+// Resultats:
+//
+// Historique:
+//    cree le 04/01/2023
+
+{
+	int a;
+
+    /*
+    Le commentaire suivant est valide, cette fonction affiche Hello World!
+    */
+    	a = a+1;
+            
+}

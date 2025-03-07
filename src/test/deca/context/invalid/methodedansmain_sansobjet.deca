@@ -1,0 +1,21 @@
+// Description:
+//    methode appelée dans main sans objet
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+class A {
+	float x;
+	void setX(float b){
+		this.x = b;
+	}
+}
+
+{
+	
+	setX(1.0);
+	
+}

@@ -1,0 +1,29 @@
+// Description:
+//    appel method inside class
+//
+// Resultats:
+//    aucune erreur
+//
+// Historique:
+//    cree le 08/01/2023
+
+class A {
+	int a;
+	
+	void seta(int a){
+		this.a = a;
+	}
+	
+	int geta(){
+		return a;
+	}
+	void toString(){
+		println(geta());
+	}
+}
+
+{
+	A a = new A();
+	a.seta(1);
+	a.toString();
+}

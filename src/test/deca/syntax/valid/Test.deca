@@ -1,0 +1,105 @@
+// Description:
+//    Code syntaxiquement correct pour verifier la decompilation par un script
+//
+// Resultats:
+//
+// Historique:
+//    cree le 04/01/2023
+
+class A {
+	int a;
+	protected int b;
+	void setA(int b){
+		this.a = b;
+	}
+
+}
+
+class B extends A {
+	void setA(int k){
+		setA(k);
+		this.setA(k);
+	}
+	int getA() {
+		return this.a;
+	}
+}
+
+{
+    A objet0 = new A();
+    B objet = new B();
+    boolean noon = objet0 instanceof A;
+
+    float pp = 3.2;
+    int r, m = 5;
+    float k = 3;
+    float p = -2;
+    float cc;
+    
+
+    boolean a = false;
+    boolean b = true;
+    
+    boolean c = false;
+    
+    if (c && b || a) {
+    	println("c bon");
+    }
+    
+    else {
+    	println("no");
+    }
+    
+    if (c || b && a || a) {
+    	println("c bon");
+    }
+    
+    else {
+    	println("no");
+    }
+    
+    
+    if (m == 5) {
+    	println("ok");
+    }
+    
+    if ( m!= 0) {
+    	println("ok");
+    
+    }
+    
+    while (m <= 0) {
+    	m = m-2;
+    }
+    
+    while (m < 0) {
+    	m = 0;
+    }
+    
+    while ( m >= 0 && m <= 6) {
+    	m = m +1;
+    	m = m*1;
+    	m = m/1;
+    }
+    
+    m = m%5;
+    
+    r = readInt();
+    cc = readFloat();
+    
+    objet = (B) (objet0);
+    
+    ;
+    println("Hello world!");      
+    printx("hhhhhhh");
+    printlnx(k);
+    printx(p);
+    println();
+    printx();
+    print();
+    println();
+    
+    println("hello", "", "world");
+    
+
+}

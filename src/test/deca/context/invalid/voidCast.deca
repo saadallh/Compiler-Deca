@@ -1,0 +1,15 @@
+// Description:
+//    cast with void
+//
+// Resultats:
+//    erreur Contextuelle
+//
+// Historique:
+//    cree le 08/01/2023
+
+{
+
+	int a = 2;
+	float d = (void) (a);
+
+}

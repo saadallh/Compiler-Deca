@@ -1,0 +1,12 @@
+// Description:
+//    operations binaires valides
+//
+// Resultats:
+//    Uncompatible type for unary operation
+//
+// Historique:
+//    cree le 08/01/2023
+
+{
+    !2;
+}

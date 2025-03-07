@@ -1,0 +1,16 @@
+// Description:
+//    division par 0
+//
+// Resultats:
+//    "Erreur : Division entiere par 0"
+//
+// Historique:
+//    cree le 01/01/2023
+
+{
+   int b=3;
+   b = b/0;
+   print(b);
+}
+
+

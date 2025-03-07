@@ -1,0 +1,15 @@
+// Description:
+//    print multi line String
+//
+// Resultats:
+//    erreur Syntaxique
+//
+// Historique:
+//    cree le 08/01/2023
+
+
+
+{
+	println("oooooooooooooooooo
+	oooooooooooooooooooooooooo");
+}

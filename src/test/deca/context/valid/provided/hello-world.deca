@@ -1,0 +1,93 @@
+// Description:
+//    Programme minimaliste utilisant println.
+//
+// Resultats:
+//    Hello
+//
+// Historique:
+//    cree le 01/01/2023
+
+{
+	int c = readInt();
+	float cc = readFloat();
+		
+        int a;
+        int b = 3;
+        
+        float aa;
+        float bb = 3.0;
+        
+        boolean aaa;
+        boolean bbb = true;
+        
+        
+        int d = a+b;
+        int dd = a-b;
+        int ddd = a*b;
+        int dddd = a/b;
+        int ddddd = a%b;
+        
+       	int k = -a;
+       	float kk = -aa;
+        
+        boolean test = aaa && bbb;
+        boolean tee = aaa || bbb;
+        boolean te = !aaa;
+                
+        a = 5;
+        aa = 5.0;
+        aaa = false;
+        
+        
+        println(a,b,aa,bb,"oo","ok");
+        
+        while (a<=3) {
+        println("ooo");
+        }
+        
+        while (a < 3) {
+        println("ooo");
+        }
+        
+        while (a > 3) {
+        println("ooo");
+        }
+        
+        while (a >= 3) {
+        println("ooo");
+        }
+        
+        if ( a == 3) {
+        println(a);
+        }
+        else if (a > 3) {
+        println(a);
+        }
+        else {
+        println("ok");}
+        
+        if ( b != 3) {
+        println("oooo");
+        }
+        
+        if ( cc < 3) {
+        println("tit");
+        }
+        else {
+        println(cc);}
+        
+        if ( a == 3) {
+        println(a);
+        }
+        else if (a > 3) {
+        println(a);
+        }
+        else if (!aaa) {
+        println("true");
+        }
+        else {
+        println("ok");}        
+        
+        ;
+        
+}

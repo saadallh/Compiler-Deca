@@ -1,0 +1,15 @@
+// Description:
+//    return without exp
+//
+// Resultats:
+//    Syntaxe Error
+//
+// Historique:
+//    cree le 08/01/2023
+
+class a {
+	int a;
+	int getA(int a){
+		return ;
+	}
+}

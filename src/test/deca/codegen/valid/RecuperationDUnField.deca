@@ -1,0 +1,20 @@
+// Description:
+//    Recuperation d'un field qui est un objet
+//
+// Resultats:
+// 
+// Historique:
+//    cree le 01/01/2023
+
+class A {
+}
+
+class B {
+	A a = new A();
+}
+
+{
+	B b = new B();
+	A a = b.a;
+
+}

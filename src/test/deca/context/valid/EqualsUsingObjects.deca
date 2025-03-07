@@ -1,0 +1,24 @@
+// Description:
+//    Esuals using objects
+//
+// Resultats:
+//    aucune erreur
+//
+// Historique:
+//    cree le 08/01/2023
+
+class A {
+
+}
+
+{
+	A a = new A();
+	A b = new A();
+	A d = null;
+	if (a == b){
+		println("ok");
+	}
+	if (d == null){
+		println("ok");
+	}
+}

@@ -1,0 +1,15 @@
+// Description:
+//    modulo
+//
+// Resultats:
+//     15%10%6=5
+//     
+// Historique:
+//    cree le 01/01/2023
+
+{
+   int a = 15, b = 10, c= 6, d;
+   print(a ,"%", b,"%",c,"=" , d = a%b%c);
+}
+
+

@@ -1,0 +1,30 @@
+// Description:
+//    appel method inside class
+//
+// Resultats:
+//    aucune erreur
+//
+// Historique:
+//    cree le 08/01/2023
+
+
+class A {
+
+}
+
+class C extends A {
+
+}
+
+class B {
+	A a = new C();
+	A geta(){
+		return a;
+	}
+}
+
+class D extends B{
+	C geta(){
+		return (C) (a);
+	}
+}

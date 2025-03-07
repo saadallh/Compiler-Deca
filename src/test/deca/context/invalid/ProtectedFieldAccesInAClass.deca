@@ -1,0 +1,23 @@
+// Description:
+//    Access to protected field in a class
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+class A {
+	protected int x;
+	void setX(int b){
+		this.x = b;
+	}
+}
+
+class B extends A {
+	int b;
+	void setB(int a){
+		A c = new A();
+		this.b = c.x + a;
+	}
+}

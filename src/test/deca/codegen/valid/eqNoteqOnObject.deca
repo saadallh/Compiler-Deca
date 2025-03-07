@@ -1,0 +1,26 @@
+// Description:
+//    redefintion d une methode
+//
+// Resultats:
+//    ok
+//    ok
+// 
+// Historique:
+//    cree le 01/01/2023
+
+class B {
+	int a;
+	void setA(int b){
+		this.a = b;
+	}
+}
+{
+	B a = new B();
+	B b = new B();
+	if (a == a){
+		println("ok");
+	}
+	if (a != b) {
+		println("ok");
+	}	
+}

@@ -1,0 +1,23 @@
+// Description:
+//    dereferencement de null
+//
+// Resultats:
+//    Erreur : dereferencement de null
+// 
+// Historique:
+//    cree le 01/01/2023
+
+class A {
+	int a = 3;
+	int geta(){
+		return this.a;
+	}
+}
+
+class B extends A{
+}
+	
+{
+	A a = new A();
+	B b = (B) (a);
+}

@@ -1,0 +1,16 @@
+// Description:
+//    int = float ;
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+{
+	int x;
+	if (x) {
+		println("ok");
+	}
+}
+

@@ -1,0 +1,25 @@
+// Description:
+//    instanciation par null puis new
+//
+// Resultats:
+//    10
+// 
+// Historique:
+//    cree le 01/01/2023
+
+class B {
+	int b = 5;
+	void setb(int d){
+		this.b = d;
+	}
+	int get(){
+		return this.b;
+	}
+}
+
+{
+	B b = null;
+	b = new B();
+	b.setb(10);
+	println(b.get());
+}

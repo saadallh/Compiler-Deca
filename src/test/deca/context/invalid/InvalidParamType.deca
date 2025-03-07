@@ -1,0 +1,21 @@
+// Description:
+//    appel d'une methode invalid type param
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+class A {
+	int x;
+	void setX(int b){
+		this.x = b;
+	}
+}
+
+{
+	A a = new A();
+	a.setX(1.0);
+	
+}

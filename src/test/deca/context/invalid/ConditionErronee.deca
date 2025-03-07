@@ -1,0 +1,14 @@
+// Description:
+//    type errone
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+{
+	if(true > false){ 
+		println("ok");
+	}
+}

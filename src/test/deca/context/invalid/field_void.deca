@@ -1,0 +1,12 @@
+// Description:
+//    field is not a void
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+class A {
+	void x;
+}

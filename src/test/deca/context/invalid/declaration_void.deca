@@ -1,0 +1,12 @@
+// Description:
+//    declaration de type void
+//
+// Resultats:
+//    Variable cannot be of type void
+//
+// Historique:
+//    cree le 08/01/2023
+
+{
+    void x;
+}

@@ -1,0 +1,25 @@
+// Description:
+//    tests boucle IfThenElse imbriquée
+//
+// Resultats:
+//    ok
+// 
+// Historique:
+//    cree le 13/01/2023
+
+{
+    boolean a = true;
+    boolean b = false;
+    if(a){
+        if(b){
+            println("Failed");
+        }
+        else{
+            println("ok");
+        }
+    }
+    else{
+        println("Failed");
+    }
+}
+

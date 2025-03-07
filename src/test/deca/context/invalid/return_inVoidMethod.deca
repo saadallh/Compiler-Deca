@@ -1,0 +1,16 @@
+// Description:
+//    return in void method
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+class A {
+	protected int x;
+	void setX(int b){
+		this.x = b;
+		return x;
+	}
+}

@@ -1,0 +1,29 @@
+// Description:
+//    if then else 
+//
+// Resultats:
+//    ok
+//
+// Historique:
+//    cree le 01/01/2023
+
+{
+   if(true){
+    if(false){ print("yester"); }
+    else if (true){ print("ok"); }
+    else if (true){ print("hola"); }
+    else {;}
+   }
+   else if(true){
+    if(false){ print("today"); }
+    else if (false){ print("is"); }
+    else if (true){ }
+    else { print("beautiful"); }
+   }
+   else {
+    if(false){ print("tomorrow"); }
+    else if (true){ print("will"); }
+   }
+}
+
+

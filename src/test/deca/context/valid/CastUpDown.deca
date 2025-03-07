@@ -1,0 +1,19 @@
+// Description:
+//    cast: upcast downcast
+//
+// Resultats:
+//    aucune erreur
+//
+// Historique:
+//    cree le 08/01/2023
+
+class A {
+}
+
+{
+
+	A a = new A();
+	Object o;
+	o = (Object) (a);
+	a = (A) (o);
+}

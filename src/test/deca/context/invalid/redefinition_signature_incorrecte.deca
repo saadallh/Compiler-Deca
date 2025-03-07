@@ -1,0 +1,18 @@
+// Description:
+//    redefinition avec une mauvaise signature
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+class A {
+	int x;
+	int getX(){
+		return x;
+	}
+}
+class B extends A {
+	int getX(int b){}
+}

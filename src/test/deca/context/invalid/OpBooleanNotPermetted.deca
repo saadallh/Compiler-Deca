@@ -1,0 +1,15 @@
+// Description:
+//    Op boolean not permetted
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+
+{
+	if(2 &&1 ){
+		println("ok");
+	}
+}

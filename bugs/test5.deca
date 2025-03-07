@@ -1,0 +1,10 @@
+{
+   int x ; 
+   int y ; 
+
+   println("Attendu : 1385447424") ; 
+   x = 2000000 ; 
+   y = x * x ; 
+   println("Obtenu  : ", y) ; 
+}
+

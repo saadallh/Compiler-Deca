@@ -1,0 +1,22 @@
+// Description:
+//    test d'un flottant majoré vers l'infini
+//
+// Resultats:
+//
+// Historique:
+//    cree le 04/01/2023
+
+{
+    //Flottants
+    float a = 14.69;
+    float b = 1504.750e8;
+    float c = 080.65;
+    float d = 14.9E+9;
+    float e = 18.7E-3;
+    float f = 0x0057f.acp+99;
+    float g = 0XFFFF.4788ADP-55;
+    float dd = 0.0;
+    float dd = 0.0f;
+    //Entiers
+    int a = 000099;
+}

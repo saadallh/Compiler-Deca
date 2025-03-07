@@ -1,0 +1,15 @@
+// Description:
+//    method without type
+//
+// Resultats:
+//    Syntaxe Error
+//
+// Historique:
+//    cree le 08/01/2023
+
+class a {
+	int a;
+	setA(int a){
+		this.a = a;
+	}
+}

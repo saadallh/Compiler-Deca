@@ -1,0 +1,25 @@
+// Description:
+//    convfloat sur parametre
+//
+// Resultats:
+//    1.00000e+00
+//
+// Historique:
+//    1.0
+
+
+class A {
+	float b;
+	void set(float b){
+		this.b = b;
+	}
+	float get(){
+		return b;
+	}
+}
+
+{
+	A a = new A();
+	a.set(1);
+	println(a.get());
+}

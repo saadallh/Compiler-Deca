@@ -1,0 +1,12 @@
+// Description:
+//    Code syntaxiquement correct pour verifier println
+//
+// Resultats:
+//
+// Historique:
+//    cree le 04/01/2023
+
+{
+    
+    println("hello", "", "world");
+}

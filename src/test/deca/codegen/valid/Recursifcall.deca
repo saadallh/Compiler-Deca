@@ -1,0 +1,27 @@
+// Description:
+//    appels recursif
+//
+// Resultats:
+//    11
+// 
+// Historique:
+//    cree le 01/01/2023
+
+class B {
+	int b = 0;
+	void setb(int d){
+		if(d < 11){
+			this.b = this.b + 1;
+			setb(d+1);
+		}
+	}
+	int get(){
+		return this.b;
+	}
+}
+
+{
+	B b = new B();
+	b.setb(0);
+	println(b.get());
+}

@@ -1,0 +1,12 @@
+// Description:
+//    test d'un flottant minorée vers 0
+//
+// Resultats:
+//    Une erreur de Syntaxe
+//
+// Historique:
+//    cree le 04/01/2023
+
+{
+    float a = 0.1e-100000;             
+}

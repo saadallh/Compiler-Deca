@@ -1,0 +1,13 @@
+// Description:
+//    Uncompatible type for binary operation
+//
+// Resultats:
+//    Uncompatible type for binary operation
+//
+// Historique:
+//    cree le 08/01/2023
+
+{
+    boolean a=true;float c=3.0;
+    a/c;
+}

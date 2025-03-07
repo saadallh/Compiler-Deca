@@ -1,0 +1,16 @@
+// Description:
+//    Teste une declaration de variable de type non déclaré ;
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+
+{
+	float b;
+
+	Class a;
+	
+}

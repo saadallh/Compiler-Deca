@@ -1,0 +1,21 @@
+// Description:
+//    not equal
+//
+// Resultats:
+//    4=/=3
+//
+// Historique:
+//    cree le 01/01/2023
+
+{
+    int c = 4;
+    int a = 3;
+    if ( a == c ){
+      print(c, " == " , a);
+    }
+    else if ( a != c ){
+      print(c , "=/=" , a );
+    }
+}
+
+

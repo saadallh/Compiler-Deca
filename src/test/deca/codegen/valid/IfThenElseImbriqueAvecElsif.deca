@@ -1,0 +1,29 @@
+// Description:
+//    tests boucle IfThenElse imbriquée avec elsif
+//
+// Resultats:
+//    ok
+// 
+// Historique:
+//    cree le 13/01/2023
+
+{
+    boolean a = true;
+    boolean b = false;
+    boolean c = true;
+    if(a){
+        if(b){
+            println("Failed");
+        }
+        else if(c){
+            println("ok");
+        }
+        else{
+            println("Failed");
+        }
+    }
+    else{
+        println("Failed");
+    }
+}
+

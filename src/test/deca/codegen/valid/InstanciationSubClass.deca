@@ -1,0 +1,25 @@
+// Description:
+//    extending
+//
+// Resultats:
+//    2
+// 
+// Historique:
+//    cree le 01/01/2023
+
+class B {
+	int a;
+	void setA(int b){
+		this.a = b+1;
+	}
+	int getA(){
+		return this.a;
+	}
+}
+class A extends B {
+}
+{
+	A b = new A();
+	b.setA(1);
+	println(b.getA());	
+}

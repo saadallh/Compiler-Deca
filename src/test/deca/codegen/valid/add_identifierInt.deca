@@ -1,0 +1,14 @@
+// Description:
+//    addition
+//
+// Resultats:
+//     2
+// 
+// Historique:
+//    cree le 01/01/2023
+
+{
+    int a = 1;
+    print(a+1);
+}
+

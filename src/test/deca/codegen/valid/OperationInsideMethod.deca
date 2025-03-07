@@ -1,0 +1,35 @@
+// Description:
+//    plusieurs appels dans la methode
+//
+// Resultats:
+//    5
+// 
+// Historique:
+//    cree le 01/01/2023
+class A {
+	int a = 0;
+	void setA(int b){
+		this.a = b;
+	}
+}
+
+class B {
+	A a = new A();
+	int b = 5;
+	void setAa(){
+		while(a.a != this.b){
+			a.setA(a.a + 1);
+		}
+	}
+	A get(){
+		return this.a;
+	}
+}
+
+{
+	B b = new B();
+	A a = b.get();
+	b.setAa();
+	println(a.a);
+}
+

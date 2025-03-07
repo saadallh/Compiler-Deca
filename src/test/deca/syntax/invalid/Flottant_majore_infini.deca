@@ -1,0 +1,12 @@
+// Description:
+//    test d'un flottant majoré vers l'infini
+//
+// Resultats:
+//    Une erreur de compilation
+//
+// Historique:
+//    cree le 04/01/2023
+
+{
+    float a = 5.0e100000000000;             
+}

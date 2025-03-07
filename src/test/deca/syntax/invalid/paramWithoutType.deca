@@ -1,0 +1,15 @@
+// Description:
+//    param without type
+//
+// Resultats:
+//    Syntaxe Error
+//
+// Historique:
+//    cree le 08/01/2023
+
+class a {
+	int a;
+	void setA(a){
+		this.a = a;
+	}
+}

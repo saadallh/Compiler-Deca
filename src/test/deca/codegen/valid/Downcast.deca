@@ -1,0 +1,25 @@
+// Description:
+//    downcats
+//
+// Resultats:
+//    5
+// 
+// Historique:
+//    cree le 01/01/2023
+
+class A {
+	int a = 3;
+	int geta(){
+		return this.a;
+	}
+}
+
+class B extends A{
+	int b = 5;
+}
+	
+{
+	A a = new B();
+	B b = (B) (a);
+	println(b.b);
+}

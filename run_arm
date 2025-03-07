@@ -1,0 +1,7 @@
+#!/bin/bash
+chmod +x $1
+arm-linux-gnueabi-as $1 -o a.o
+arm-linux-gnueabi-gcc a.o -o a.elf -nostdlib
+qemu-arm ./a.elf
+rm a.o
+rm a.elf

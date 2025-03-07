@@ -1,0 +1,21 @@
+// Description:
+//    appel d'une methode avec une exp qui n'est pas un typeclass
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+class A {
+	float x;
+	void setX(float b){
+		this.x = b;
+	}
+}
+
+{
+	int a = 5;
+	a.setX(1.0);
+	
+}

@@ -1,0 +1,15 @@
+// Description:
+//    void type in params
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+class A {
+	protected int x;
+	void setX(void b){
+	}
+}
+

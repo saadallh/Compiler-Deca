@@ -1,0 +1,19 @@
+// Description:
+//    tests boucle IfThenElse Normam
+//
+// Resultats:
+//    ok
+// 
+// Historique:
+//    cree le 13/01/2023
+
+{
+    boolean a = false;
+    if(a){
+        println("Failed");
+    }
+    else{
+        println("ok");
+    }
+}
+

@@ -1,0 +1,30 @@
+// Description:
+//    if then else with arithmetique operations
+//
+// Resultats:
+//     day
+//
+// Historique:
+//    cree le 01/01/2023
+
+{
+  int a = 5, b =3;
+   if(a + b == (a%b)*4 ){
+    if(a/b == 2.8){ print("yester"); }
+    else if (a*b == 15){ print("day"); }
+    else if (a%b == 2){ print("hola"); }
+    else {;}
+   }
+   else if(a - b == 2){
+    if((a<=b) == (a!=b)){ print("today"); }
+    else if (a<b != a*b>=2){ print("is"); }
+    else if (a>b && a/b==2){ }
+    else { print("beautiful"); }
+   }
+   else {
+    if(false){ print("tomorrow"); }
+    else if (true){ print("will"); }
+   }
+}
+
+

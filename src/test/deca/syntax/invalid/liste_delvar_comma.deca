@@ -1,0 +1,12 @@
+// Description:
+//    comma manquante;
+//
+// Resultats:
+//    Erreur syntaxique
+//
+// Historique:
+//    cree le 11/01/2023
+
+{
+    int x,y
+}

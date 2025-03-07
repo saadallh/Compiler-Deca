@@ -1,0 +1,15 @@
+// Description:
+//    operations binaires valides
+//
+// Resultats:
+//    aucune erreur
+//
+// Historique:
+//    cree le 08/01/2023
+
+
+{
+    boolean a=true; int b=5; float c=3.0;
+    c=15.5/b;
+    a = 2<1;
+}

@@ -1,0 +1,15 @@
+// Description:
+//    redefinition avec un parametre invalid type
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+class A {
+	float x;
+	void setX(int b, float b){
+		this.x = b + b;
+	}
+}

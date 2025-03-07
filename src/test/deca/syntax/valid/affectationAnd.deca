@@ -1,0 +1,12 @@
+// Description:
+//    affectation And valide Syntaxiquement
+//
+// Resultats:
+//
+// Historique:
+//    cree le 04/01/2023
+
+{
+    int a = true && true ||true && false;
+    float b = false || false && !false || !true;
+}

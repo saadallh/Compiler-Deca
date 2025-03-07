@@ -1,0 +1,17 @@
+// Description:
+//    instanceof Invalid
+//
+// Resultats:
+//    erreur Contextuelle
+//
+// Historique:
+//    cree le 08/01/2023
+
+
+
+{
+	int a = 3;
+	if (a instanceof int) {
+		println("ok");
+	}
+}

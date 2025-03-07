@@ -1,0 +1,13 @@
+// Description:
+//    int = float ;
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+{
+	gl x = 4;
+}
+

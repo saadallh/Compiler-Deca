@@ -1,0 +1,26 @@
+// Description:
+//    inequlities
+//
+// Resultats:
+//    3
+//
+// Historique:
+//    cree le 01/01/2023
+
+{
+    int c = 3;
+    float y = 4.5;
+    float b = 3.0;
+    int k = 7;
+    if ( y <= c ){
+      print(y , " <= ", c);
+    }
+    else if( c >= k ){ print(c , " >= " , k);}
+    else if( b > k ){ print(b , " > " , k);}
+    else if( b < c ){ print(b, " < " , c);}
+    else{
+      print(c);
+    }
+}
+
+

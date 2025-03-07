@@ -1,0 +1,23 @@
+// Description:
+//    testing simple avec Les class
+//
+// Resultats:
+//    1
+// 
+// Historique:
+//    cree le 01/01/2023
+
+class B {
+	int a = 2;
+}
+class A extends B {
+	int a = 1;
+	
+	int getA(){
+		return this.a;
+	}
+}
+{
+	A a = new A();
+	println(a.getA());	
+}

@@ -1,0 +1,20 @@
+// Description:
+//    redefine a field as a method ;
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+
+
+
+
+
+class A {
+	int b;
+}
+class B extends A {
+	void b(){}
+}

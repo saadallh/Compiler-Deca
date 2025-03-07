@@ -1,0 +1,13 @@
+// Description:
+//    boolean = null
+//
+// Resultats:
+//    Assignment Error
+//
+// Historique:
+//    cree le 08/01/2023
+
+{
+	
+	boolean a = null	
+}

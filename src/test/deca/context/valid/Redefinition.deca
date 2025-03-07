@@ -1,0 +1,21 @@
+// Description:
+//    redefinition
+//
+// Resultats:
+//    aucune erreur
+//
+// Historique:
+//    cree le 08/01/2023
+
+class A {
+	int a;
+	boolean eq(int a){
+		return this.a == a;
+}
+}
+
+class B extends A {
+	boolean eq(int a){
+		return this.a > a;
+	}
+}

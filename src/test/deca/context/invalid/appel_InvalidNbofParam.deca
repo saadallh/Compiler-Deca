@@ -1,0 +1,21 @@
+// Description:
+//    appel d'une methode invalid nb of param
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+class A {
+	float x;
+	void setX(float b){
+		this.x = b;
+	}
+}
+
+{
+	A a = new A();
+	a.setX();
+	
+}

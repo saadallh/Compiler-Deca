@@ -1,0 +1,21 @@
+// Description:
+//    dereferencement de null
+//
+// Resultats:
+//    Erreur : dereferencement de null
+// 
+// Historique:
+//    cree le 01/01/2023
+
+class A {
+	int a = 3;
+	int geta(){
+		return this.a;
+	}
+}
+	
+{
+
+	A a = null;
+	int b = a.geta();
+}

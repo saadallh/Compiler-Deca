@@ -1,0 +1,13 @@
+// Description:
+//    erreur syntaxique
+//
+// Resultats:
+//    erreur syntaxique
+//
+// Historique:
+//    cree le 08/01/2023
+
+{
+    int x;
+    x!2;
+}

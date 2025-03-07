@@ -1,0 +1,20 @@
+// Description:
+//    method sans return
+//
+// Resultats:
+//    Erreur : Methode terminee sans passer par return
+// 
+// Historique:
+//    cree le 01/01/2023
+
+class A {
+	int a;
+	int geta(){
+	}
+}
+	
+{
+
+	A a = new A();
+	int b = a.geta();
+}

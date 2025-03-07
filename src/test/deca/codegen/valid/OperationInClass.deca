@@ -1,0 +1,29 @@
+// Description:
+//    extending
+//
+// Resultats:
+//    0
+//    101
+// 
+// Historique:
+//    cree le 01/01/2023
+
+class B {
+	int a;
+	void setA(int b){
+		if (b > 100){
+			this.a = b;
+		}
+	}
+	int getA(){
+		return this.a;
+	}
+}
+
+{
+	B b = new B();
+	b.setA(1);
+	println(b.getA());
+	b.setA(101);
+	println(b.getA());	
+}

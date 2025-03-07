@@ -1,0 +1,18 @@
+// Description:
+//    tests d'expressions entieres
+//
+// Resultats:
+//    1
+//    2
+//
+// Historique:
+//    cree le 01/01/2023
+
+{
+   int i ; 
+   i = 1;
+   println(i);
+   i = i + 1;
+   println(i);
+}
+

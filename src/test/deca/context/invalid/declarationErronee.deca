@@ -1,0 +1,13 @@
+// Description:
+//    decalaration erronee
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+
+{
+	a = 3;
+}

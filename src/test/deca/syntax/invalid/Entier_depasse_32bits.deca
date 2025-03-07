@@ -1,0 +1,12 @@
+// Description:
+//    test d'un entier qui dépasse limite de codage
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+{
+    int a = 2147483650;             //2147483646 == (2^31)-1 qui est le nombre max autorisé
+}

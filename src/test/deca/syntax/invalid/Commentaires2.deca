@@ -1,0 +1,12 @@
+// Description:
+//    test d'un commentaire qui commence par une fin
+//
+// Resultats:
+//    Une erreur de compilation
+//
+// Historique:
+//    cree le 04/01/2023
+
+{
+    */           
+}

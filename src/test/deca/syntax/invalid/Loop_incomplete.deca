@@ -1,0 +1,13 @@
+// Description:
+//    Une boucle while incomplete
+//
+// Resultats:
+//    Erreur : pas de crochet
+//
+// Historique:
+//    cree le 04/01/2023
+
+{
+    int i = 5;
+    while(i==5)
+}

@@ -1,0 +1,17 @@
+// Description:
+//    body erroné
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+class A {
+	float x;
+	void setX(int b){
+		int d = 5;
+		int d = 3;
+		this.x = b + d;
+	}
+}

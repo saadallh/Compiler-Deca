@@ -1,0 +1,17 @@
+// Description:
+//    Unuary expression non valide
+//
+// Resultats:
+//    Erreur : pas conforme a la grammaire
+//
+// Historique:
+//    cree le 11/01/2023
+
+
+{
+
+	int a = 5;
+	a = -a,a;
+
+}
+

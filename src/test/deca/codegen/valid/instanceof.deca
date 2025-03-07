@@ -1,0 +1,34 @@
+// Description:
+//    printing with this
+//
+// Resultats:
+//    ok
+//    ok
+//    ok
+// 
+// Historique:
+//    cree le 01/01/2023
+class A {
+}
+class B {
+}
+class C extends A {
+}
+
+{
+	A a = new A();
+	B b = new B();
+	C c = new C();
+	boolean d;
+	if (a instanceof A){
+		println("ok");
+	}
+	if (!(b instanceof A)){
+		println("ok");
+	}
+	d = c instanceof A;
+	if(d){
+		println("ok");
+	}
+
+}

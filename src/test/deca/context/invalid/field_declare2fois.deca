@@ -1,0 +1,16 @@
+// Description:
+//    field declare 2 fois
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 04/01/2023
+
+class A {
+	protected int x;
+	int x;
+	void setX(int b){
+		this.x = b;
+	}
+}

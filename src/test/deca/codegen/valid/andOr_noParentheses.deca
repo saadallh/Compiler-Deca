@@ -1,0 +1,22 @@
+// Description:
+//    And Or
+//
+// Resultats:
+//    true
+//
+// Historique:
+//    cree le 01/01/2023
+
+{
+   boolean t = true, f = false; 
+   boolean r;
+   r = t || f && t || t && t || f;
+   if(r == true){
+      print( "true" );
+   }
+   else{
+      print( "false" );
+   }
+}
+
+
